@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.menu a{
+    color: white;
+    margin: 0.5rem 0.5rem;
+     text-decoration: none;
+    border: 1px solid chocolate ;
+    padding: 0.5rem 1rem;
+}
+ .menu a:hover{
+    color: white;
+    background-color: chocolate;
+    border-radius: 75px;
+}
+.icons i{ 
+    color: white;
+    font-size: 30px;
+    
+    margin: 0.5rem 0.5rem;
+}
+.icons i:hover{
+color: chocolate;
+}
+.home{
+    background-image: url(./images/home-img.jpeg);
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    }
+.home_main{
+     padding-left: 5%;
+     padding-top: 10%;
+
+    }
+.home_main h1{
+    color: white;
+    font-size: 60px;
+
+} 
+.home_main p{
+    color: white;
+    font-size: 20px; 
+}
+.home_main button{
+    color: white;
+    font-size: 20px;
+    background-color: chocolate;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 30px;
+}
+.home_main button:hover{
+    background-color: red;
+}
+.about{
+    background-color: black;
+}
+.about h1{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.about h1 span{
+    color: chocolate;
+}
+.about_main{
+     display: flex;
+}
+.box_left{
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+}
+
+.box_right{
+    flex: 1;
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+    margin-top: 3.5%;
+    margin-bottom :3.5% ;
+    margin-right: 2rem;
+}
+.box_right h2{
+    font-size: 300%;
+    color: white;
+}
+.box_right p{
+    font-size: large;
+    color: white;
+}
+.box_right button{
+    color: white;
+    font-size: 20px;
+    background-color: chocolate;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-top: 50px;    
+}
+.box_right button:hover{
+    color: red;
+}
+.main_menu {
+ background-color: black;
+ 
+}
+.main_menu h1{
+    color: white;
+    text-align: center;
+}
+.main_menu h1 span{
+    color: chocolate;
+}
+.menu {
+    background-color: black;
+    
+}
+.menu h1{
+    text-align: center;
+color: white;
+margin-bottom:2rem ;
+font-size: 1.5rem;
+}
+.menu h1 span{
+    color: chocolate ;
+ }
+ .menu-main  {
+    display: flex ;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+.menu-main h3{
+    color: white;
+}
+.box_1 {
+    border: 1px solid white;
+    padding: 4rem 4rem;
+    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+} 
+.box_2 {
+    border: 1px solid white;
+    padding: 4rem 4rem;
+    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+}
+.box_3 {
+    border: 1px solid white;
+    padding: 4rem 4rem;
+    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+}
+.box_4 {
+    border: 1px solid white;
+    padding: 4rem 4rem;
+    margin-left: 4%;
+    align-items: center;
+    text-align: center;
+}
+.box_1 button{
+    color: white;
+    font-size: 20px;
+    background-color: chocolate;
+    border: none;
+    margin-top:0.5rem;
+    padding: 0.5rem 1rem;
+}
+.box_2 button{
+    color: white;
+    font-size: 20px;
+    background-color:chocolate;
+    border: none;
+    margin-top:0.5rem;
+    padding: 0.5rem 1rem;
+}
+.box_3 button{
+    color: white;
+    font-size: 20px;
+    background-color:chocolate;
+    border: none;
+    margin-top:0.5rem;
+    padding: 0.5rem 1rem;
+}
+.box_4 button{
+    color: white;
+    font-size: 20px;
+    background-color:chocolate;
+    border: none;
+    margin-top:0.5rem;
+    padding: 0.5rem 1rem;
+    
+}
+.box_1 button:hover{
+ background-color: chocolate;
+ border-radius: 75px;
+}
+.box_2 button:hover{
+    background-color: chocolate;
+    border-radius: 75px;
+   }
+   .box_3 button:hover{
+    background-color: chocolate;
+    border-radius: 75px;
+   }
+   .box_4 button:hover{
+    background-color: chocolate;
+    border-radius: 75px;
+   }
+   .Products {
+    background-color: black;
+   }
+   .Products h1{
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+   }
+.Products h1 span {
+    color: chocolate;
+   }
+ .products-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .products-main h2{
+    color: white;
+ }
+.box_1 i{
+    color: white;
+    font-size:20px;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+  display: grid;
+  }
+  .reviews{
+    background-color: black;
+  }
+  .reviews h1{
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 2rem 2rem;
+  }
+.reviews h1 span{
+    color: chocolate;
+}
+.reviews_main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.reviews_main h3{
+    color: white;
+    padding: 1rem 1rem;
+}
+.reviews_main p{
+    color: white;
+    font-size: 20px;
+}
+.contact_form {
+    background-color: black;
+}
+.contact_form h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+   padding-top: 2rem;
+}
+.contact_form h1 span{
+    color: chocolate;
+}
+.contact_form_main{
+    display: flex;
+    align-items: center;
+}
+.contact_left {
+    margin-left: 15rem;
+    margin-bottom: 5rem;
+    padding-right: 10rem;
+}
+.contact_right{
+    color: white;
+    border: none;
+    margin-left: 10rem;
+    background-color: grey;
+    margin-bottom: 7rem;
+    padding-right: 15rem;
+    padding-top:3rem ;
+    padding-left: 7rem;
+    padding-bottom: 10rem;
+    margin-top: 2.5rem;
+    font-size: 20px;
+    
+}
+.contact_right button{
+    color: white;
+    background-color:red;
+   padding: 0.3rem 0.3rem;
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    border: none;
+
+}
+.contact_right button:hover {
+    background-color:black;
+    border-radius: 75px;
+    color: chocolate ;
+}
+.main_menu {
+    background-color: black;
+    
+   }
+   .main_menu h1{
+       color: white;
+       text-align: center;
+   }
+   .main_menu h1 span{
+       color: chocolate;
+   }
+   .blog {
+       background-color: black;
+       
+   }
+   .blog h1{
+       text-align: center;
+       color: white;
+       margin-bottom:2rem;
+       font-size:24px;
+   }
+   .blog h1 span{
+       color: chocolate ;
+    }
+    .blog_main  {
+       display: flex ;
+       align-items: center;
+   }
+   .blog_main p{
+       color: white;
+       font-size: 20px;
+   }
+   .blog_main .box_3{
+    margin-right:40px;
+   }
+   .footer{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+   }
+   .footer .pages{
+    align-items: center;
+    justify-content: center;
+
+   }
+   .footer .pages a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 0.5rem 1rem;
+    
+   }
+   .social_icons i{
+    padding: 2rem 1rem;
+    color: white;
+    font-size: 1.5rem;
+   }
+   .tag_line{
+    color: white;
+   }
+   .footer .pages a:hover{
+    background-color: chocolate;
+    border-radius: 75px;
+   }
+   .tag_line span{
+    color: chocolate;
+   }
+   
